@@ -1,0 +1,13 @@
+pyrofork==2.3.45
+tgcrypto-pyrofork
+pymongo==4.13.2
+motor==3.7.1
+marshmallow<4.0.0
+umongo
+requests
+bs4
+datetime
+pytz
+python-dotenv==0.21.1
+psutil
+git+https://github.com/Joelkb/cinemagoer
