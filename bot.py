@@ -54,6 +54,7 @@ async def dreamxbotz_start():
             spec.loader.exec_module(load)
             sys.modules["plugins." + plugin_name] = load
             print("DreamxBotz Imported => " + plugin_name)
+            ON_HEROKU = False
     if ON_HEROKU:
         asyncio.create_task(ping_server()) 
     b_users, b_chats = await db.get_banned()
