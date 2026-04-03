@@ -76,7 +76,6 @@ async def dreamxbotz_start():
     logging.info(f"{me.first_name} with Pyrogram v{__version__} (Layer {layer}) started on {me.username}.")
     LOG_STR = "Bot Successfully Started!"
     logging.info(LOG_STR)
-    logging.info(script.LOGO)
     tz = pytz.timezone('Asia/Kolkata')
     today = date.today()
     now = datetime.now(tz)
