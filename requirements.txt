@@ -13,3 +13,4 @@ psutil
 git+https://github.com/Joelkb/cinemagoer
 aiohttp
 shortzy
+jinja2
