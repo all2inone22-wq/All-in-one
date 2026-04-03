@@ -2,7 +2,7 @@
 
 import jinja2
 from info import *
-from dreamxbotz.Bot import dreamxbotz
+from dreamxbotz.bot import dreamxbotz
 from dreamxbotz.util.human_readable import humanbytes
 from dreamxbotz.util.file_properties import get_file_ids
 from dreamxbotz.server.exceptions import InvalidHash
