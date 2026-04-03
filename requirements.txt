@@ -11,3 +11,4 @@ pytz
 python-dotenv==0.21.1
 psutil
 git+https://github.com/Joelkb/cinemagoer
+aiohttp
