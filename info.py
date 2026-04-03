@@ -29,6 +29,8 @@ LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-100'))
 BIN_CHANNEL = int(environ.get('BIN_CHANNEL', '-100'))
 PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-100'))
 URL = environ.get('URL', '')
+DREAMXBOTZ_IMAGE_FETCH = environ.get('DREAMXBOTZ_IMAGE_FETCH', '')
+TMDB_API_KEY = environ.get('TMDB_API_KEY', '')
 
 DATABASE_URI = environ.get('DATABASE_URI', "")
 DATABASE_URI2 = environ.get('DATABASE_URI2', DATABASE_URI)
