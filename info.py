@@ -64,3 +64,4 @@ AUTO_DELETE = True
 DELETE_TIME = int(environ.get("DELETE_TIME", "300"))
 IMDB = True
 TMDB_API_KEY = environ.get('TMDB_API_KEY', '')
+Bot_cmds = []
