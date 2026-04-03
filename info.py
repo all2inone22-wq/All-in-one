@@ -68,3 +68,4 @@ Bot_cmds = []
 DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS', 0))
 INDEX_REQ_CHANNEL = int(environ.get('INDEX_REQ_CHANNEL', 0))
 AUTH_REQ_CHANNELS = environ.get('AUTH_REQ_CHANNELS', '')
+TMDB_ON_SEARCH = environ.get('TMDB_ON_SEARCH', 'False')
