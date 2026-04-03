@@ -6,7 +6,7 @@ import secrets
 import time
 import mimetypes
 from aiohttp.http_exceptions import BadStatusLine
-from dreamxbotz.bot import multi_clients, work_loads, dreamxbotz
+from dreamxbotz.Bot import multi_clients, work_loads, dreamxbotz
 from dreamxbotz.server.exceptions import FIleNotFound, InvalidHash
 from dreamxbotz.zzint import StartTime, __version__
 from dreamxbotz.util.custom_dl import ByteStreamer
