@@ -28,6 +28,7 @@ CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHAN
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-100'))
 BIN_CHANNEL = int(environ.get('BIN_CHANNEL', '-100'))
 PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-100'))
+URL = environ.get('URL', '')
 
 DATABASE_URI = environ.get('DATABASE_URI', "")
 DATABASE_URI2 = environ.get('DATABASE_URI2', DATABASE_URI)
