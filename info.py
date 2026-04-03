@@ -30,6 +30,7 @@ BIN_CHANNEL = int(environ.get('BIN_CHANNEL', '-100'))
 PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-100'))
 
 DATABASE_URI = environ.get('DATABASE_URI', "")
+DATABASE_URI2 = os.environ.get("DATABASE_URI2", DATABASE_URI)
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'royal_files')
 
