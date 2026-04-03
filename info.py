@@ -34,7 +34,7 @@ TMDB_API_KEY = environ.get('TMDB_API_KEY', '')
 MOVIE_UPDATE_CHANNEL = environ.get('MOVIE_UPDATE_CHANNEL', '')
 LINK_PREVIEW = environ.get('LINK_PREVIEW', 'False')
 ABOVE_PREVIEW = environ.get('ABOVE_PREVIEW', 'False')
-BAD_WORDS = environ.get('BAD_WORDS', '')
+BAD_WORDS = set(environ.get('BAD_WORDS', '').split())
 LANDSCAPE_POSTER = environ.get('LANDSCAPE_POSTER', 'False')
 TMDB_POSTER = environ.get('TMDB_POSTER', 'False')
 
