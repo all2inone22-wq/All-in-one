@@ -80,7 +80,7 @@ async def dreamxbotz_start():
     today = date.today()
     now = datetime.now(tz)
     time = now.strftime("%H:%M:%S %p")
-    await dreamxbotz.send_message(chat_id=LOG_CHANNEL, text=script.START_TXT.format(temp.B_LINK, today, time))
+    await dreamxbotz.send_message(chat_id=LOG_CHANNEL, text="Bot Successfully Started!")
     app = web.AppRunner(await web_server())
     await app.setup()
     bind_address = "0.0.0.0"
