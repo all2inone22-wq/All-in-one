@@ -65,3 +65,4 @@ DELETE_TIME = int(environ.get("DELETE_TIME", "300"))
 IMDB = True
 TMDB_API_KEY = environ.get('TMDB_API_KEY', '')
 Bot_cmds = []
+DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS', 0))
